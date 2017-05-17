@@ -1,9 +1,9 @@
 #!/bin/sh
 
 brew bundle --file=- <<EOF
-brew "iterm2"
-brew "istat-menus"
-brew "google-chrome"
+cask "iterm2"
+cask "istat-menus"
+cask "google-chrome"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."

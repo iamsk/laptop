@@ -47,6 +47,8 @@ Or, attach the whole log file as an attachment.
 What it sets up
 ---------------
 
+[Softwares used in my MAC][softwares-for-osx]
+
 [softwares-for-osx]: http://iamsk.info/softwares-for-osx/
 
 It should take less than 15 minutes to install (depends on your machine).
@@ -57,6 +59,8 @@ Customize in `~/.laptop.local`
 Your `~/.laptop.local` is run at the end of the Laptop script.
 Put your customizations there.
 For example:
+
+[Shell script for configuring my custom apps][custom]
 
 [custom]: https://github.com/iamsk/laptop/blob/master/custom
 
