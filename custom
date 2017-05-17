@@ -2,10 +2,10 @@
 
 brew bundle --file=- <<EOF
 cask "java"
-cask "go-agent"
 cask "google-chrome"
 cask "appcleaner"
 cask "movist"
+cask "neteasemusic"
 cask "istat-menus"
 cask "dropbox"
 
@@ -14,7 +14,6 @@ cask "slack"
 cask "aliwangwang"
 
 cask "iterm2"
-brew "tmux"
 brew "htop"
 brew "wget"
 brew "pyenv"
@@ -23,6 +22,9 @@ cask "macvim"
 cask "sequel-pro"
 cask "charles"
 brew "httpstat"
+brew "diff-so-fancy"
+brew "m-cli"
+cask "dash"
 
 cask "sogouinput"
 cask "alfred"
@@ -31,6 +33,7 @@ cask "rescuetime"
 cask "go2shell"
 cask "qq"
 cask "cheatsheet"
+cask "lantern"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
