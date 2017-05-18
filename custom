@@ -8,6 +8,8 @@ cask "movist"
 cask "neteasemusic"
 cask "istat-menus"
 cask "dropbox"
+cask "fliqlo"
+cask "switchhosts"
 
 cask "electronic-wechat"
 cask "slack"
