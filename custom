@@ -27,6 +27,7 @@ brew "httpstat"
 brew "diff-so-fancy"
 brew "m-cli"
 cask "dash"
+brew "adr-tools"
 
 cask "sogouinput"
 cask "alfred"
