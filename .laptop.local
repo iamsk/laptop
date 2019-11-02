@@ -1,33 +1,34 @@
 #!/bin/sh
 
 brew bundle --file=- <<EOF
+brew "Caskroom/cask/dockertoolbox"
+brew "go"
+brew "ngrok"
+brew "watch"
+
 cask "java"
 cask "google-chrome"
 cask "appcleaner"
-cask "movist"
 cask "neteasemusic"
-cask "istat-menus"
 cask "dropbox"
 cask "fliqlo"
 cask "switchhosts"
-
-cask "electronic-wechat"
 cask "slack"
 cask "aliwangwang"
 
-cask "iterm2"
 brew "htop"
 brew "wget"
 brew "pyenv"
+brew "httpstat"
+brew "diff-so-fancy"
+brew "m-cli"
+brew "adr-tools"
+cask "iterm2"
+cask "dash"
 cask "pycharm"
 cask "macvim"
 cask "sequel-pro"
 cask "charles"
-brew "httpstat"
-brew "diff-so-fancy"
-brew "m-cli"
-cask "dash"
-brew "adr-tools"
 
 cask "sogouinput"
 cask "alfred"
@@ -36,7 +37,6 @@ cask "rescuetime"
 cask "go2shell"
 cask "qq"
 cask "cheatsheet"
-cask "lantern"
 EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."

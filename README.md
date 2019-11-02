@@ -25,7 +25,7 @@ Bug reports for older versions are welcome.
 Install
 -------
 
-Download, review, then execute the script:
+Download the script:
 
 ```sh
 curl --remote-name https://raw.githubusercontent.com/iamsk/laptop/master/mac
