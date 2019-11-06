@@ -128,8 +128,8 @@ brew "watchman"
 brew "zsh"
 
 # Heroku
-brew "heroku/brew/heroku"
-brew "parity"
+#brew "heroku/brew/heroku"
+#brew "parity"
 
 # GitHub
 brew "hub"
@@ -140,11 +140,11 @@ brew "imagemagick"
 # Programming language prerequisites and package managers
 brew "libyaml" # should come after openssl
 brew "coreutils"
-brew "yarn"
-cask "gpg-suite"
+#brew "yarn"
+#cask "gpg-suite"
 
 # Databases
-brew "postgres", restart_service: :changed
+#brew "postgres", restart_service: :changed
 brew "redis", restart_service: :changed
 EOF
 
