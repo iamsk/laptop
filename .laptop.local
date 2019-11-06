@@ -1,15 +1,9 @@
 #!/bin/sh
 
 brew bundle --file=- <<EOF
-brew "Caskroom/cask/dockertoolbox"
-brew "go"
-brew "ngrok"
-brew "watch"
-
 cask "java"
 cask "google-chrome"
 cask "appcleaner"
-cask "neteasemusic"
 cask "dropbox"
 cask "fliqlo"
 cask "switchhosts"
@@ -30,8 +24,6 @@ cask "macvim"
 cask "sequel-pro"
 cask "charles"
 
-cask "sogouinput"
-cask "alfred"
 cask "spectacle"
 cask "rescuetime"
 cask "go2shell"
